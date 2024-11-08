@@ -4,7 +4,7 @@ import TeamCard from "@/components/TeamCard";
 const teamMembers = [
     {
         name: "Uddashay Arora",
-        role: "CEO & Founder",
+        role: "CEO",
         image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlJTIwcHJvZmVzc2lvbmFsfGVufDB8fDB8fHww",
         linkedin: "https://linkedin.com/",
         twitter: "https://twitter.com/",

@@ -166,7 +166,7 @@ function page() {
                 <br />
                 <br />
                 <span>
-                  Located in Canada and the US, we blend local insights with global expertise to deliver high-quality results that drive success. Whether you&apos;re launching a start up or looking to improve your existing digital strategies, we are committed to providing innovative solutions that foster growth and engagement. At Tecklo, we believe in building strong relationships with our clients, ensuring you have the support you need every step of the way.
+                  Located in Canada with a global presence, we blend local insights with global expertise to deliver high-quality results that drive success. Whether you&apos;re launching a start up or looking to improve your existing digital strategies, we are committed to providing innovative solutions that foster growth and engagement. At Tecklo, we believe in building strong relationships with our clients, ensuring you have the support you need every step of the way.
                 </span>
                 <br />
                 <br />
@@ -189,7 +189,7 @@ function page() {
                     <p>From start-ups to established businesses, we provide end-to-end guidance, ensuring that you’re supported from the initial planning stages through to long-term maintenance. Our services—from Graphic Design to Web Infrastructure, SEO, and Digital Marketing—are backed by data-driven strategies, ensuring measurable results that matter.
 
                     </p><br />
-                    <p>With offices in Canada and the US, we bring local expertise and a global vision to your business, helping you grow both locally and internationally. Our mission is to build lasting partnerships, providing solutions that empower businesses to thrive in the digital world.
+                    <p>With offices in Canada, we bring local expertise and a global vision to your business, helping you grow both locally and internationally. Our mission is to build lasting partnerships, providing solutions that empower businesses to thrive in the digital world.
                     </p>
                     <ul className="flex flex-col gap-2 mt-4 font-semibold ">
                       <li className="flex gap-2"><LoaderPinwheel className="text-purple-400" /> <span>Client-Centric Focus: Understanding unique needs.</span></li>
@@ -198,7 +198,7 @@ function page() {
                       <li className="flex gap-2"><Pyramid className="text-purple-400" /> <span>End-to-End Guidance: Support from planning to maintenance.</span></li>
                       <li className="flex gap-2"><BetweenHorizontalStart className="text-purple-400" /> <span>Data-Driven Strategies: Measurable results.</span></li>
                     </ul>
-                    <p className="mt-2">With offices in Canada and the US, we bring local expertise and a global vision to your business, helping you grow both locally and internationally.</p>
+                    <p className="mt-2">With offices in Canada , we bring local expertise and a global vision to your business, helping you grow both locally and internationally.</p>
                     <Button asChild className="bg-white text-gray-900 rounded hover:bg-black mt-4 hover:text-white"><Link href="/service" >Explore Our Services</Link></Button>
                   </div>
 
