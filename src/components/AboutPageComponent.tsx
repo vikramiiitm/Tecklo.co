@@ -158,33 +158,29 @@ function page() {
             </h1>
           
             <section >
-              <p className="text-base text-gray-800">
-                <span>
+              <div className="text-base text-gray-800">
+                <p>
                   Welcome to Tecklo.co, your trusted partner in digital solutions. We specialize in helping businesses of all sizes enhance their online presence and achieve their goals. With a dedicated team of experts in design, development, and marketing, we offer a comprehensive range of services tailored to meet your unique needs.
-                </span>
+              </p><br />
 
-                <br />
-                <br />
-                <span>
-                  Located in Canada with a global presence, we blend local insights with global expertise to deliver high-quality results that drive success. Whether you&apos;re launching a start up or looking to improve your existing digital strategies, we are committed to providing innovative solutions that foster growth and engagement. At Tecklo, we believe in building strong relationships with our clients, ensuring you have the support you need every step of the way.
-                </span>
-                <br />
-                <br />
-                <span>
+              <p> Located in Canada with a global presence, we blend local insights with global expertise to deliver high-quality results that drive success. Whether you&apos;re launching a start up or looking to improve your existing digital strategies, we are committed to providing innovative solutions that foster growth and engagement.</p><br />
+              <p> At Tecklo, we believe in building strong relationships with our clients, ensuring you have the support you need every step of the way.</p><br />
+                <p>
                   Let&apos;s work together to take your business to new heights in the digital landscape.
-                </span>
-              </p>
+                </p>
+              </div>
            </section>
            
 
             <div className="flex flex-col  gap-5 justify-center ">
               <section className=" bg-light  text-gray-800">
-                <h2 className="text-center text-2xl font-bold ">Our Approach</h2>
+              <h2 className="text-center text-2xl font-bold text-purple-500 ">Our Approach</h2>
                 <h3 className="pb-10 text-center text-sm">Tailored Solutions for Every Business</h3>
                 <div className="row">
                   <div className="col-md-6 text-base">
                     <p>At tecklo, we prioritize understanding each client’s unique needs to deliver custom-fit digital solutions. Our team combines expert craftsmanship with a client-first mentality, ensuring that every project is tailored specifically to your business goals. By using Agile Methodology, we remain flexible and adaptable, allowing us to adjust quickly to changes while maintaining continuous improvement throughout the project lifecycle.
                     </p>
+                    
                     <br />
                     <p>From start-ups to established businesses, we provide end-to-end guidance, ensuring that you’re supported from the initial planning stages through to long-term maintenance. Our services—from Graphic Design to Web Infrastructure, SEO, and Digital Marketing—are backed by data-driven strategies, ensuring measurable results that matter.
 
@@ -192,11 +188,11 @@ function page() {
                     <p>With offices in Canada, we bring local expertise and a global vision to your business, helping you grow both locally and internationally. Our mission is to build lasting partnerships, providing solutions that empower businesses to thrive in the digital world.
                     </p>
                     <ul className="flex flex-col gap-2 mt-4 font-semibold ">
-                      <li className="flex gap-2"><LoaderPinwheel className="text-purple-400" /> <span>Client-Centric Focus: Understanding unique needs.</span></li>
-                      <li className="flex gap-2"><Pickaxe className="text-purple-400" /> <span>Expert Craftsmanship: Skilled team delivering quality.</span></li>
-                      <li className="flex gap-2"><ArrowsUpFromLine className="text-purple-400" /> <span>Agile Methodology: Flexibility and adaptability.</span></li>
-                      <li className="flex gap-2"><Pyramid className="text-purple-400" /> <span>End-to-End Guidance: Support from planning to maintenance.</span></li>
-                      <li className="flex gap-2"><BetweenHorizontalStart className="text-purple-400" /> <span>Data-Driven Strategies: Measurable results.</span></li>
+                    <li className="flex gap-2"><LoaderPinwheel className="text-purple-400" /> <span>Client-Centric Focus: </span> <span>Understanding unique needs.</span></li>
+                    <li className="flex gap-2"><Pickaxe className="text-purple-400" /> <span>Expert Craftsmanship: </span> <span>Skilled team delivering quality.</span> </li>
+                    <li className="flex gap-2"><ArrowsUpFromLine className="text-purple-400" /> <span>Agile Methodology: </span> <span>Flexibility and adaptability.</span></li>
+                    <li className="flex gap-2"><Pyramid className="text-purple-400" /> <span>End-to-End Guidance: </span> <span>Support from planning to maintenance.</span></li>
+                    <li className="flex gap-2"><BetweenHorizontalStart className="text-purple-400" /> <span>Data-Driven Strategies: </span> <span>Measurable results.</span> </li>
                     </ul>
                     <p className="mt-2">With offices in Canada , we bring local expertise and a global vision to your business, helping you grow both locally and internationally.</p>
                     <Button asChild className="bg-white text-gray-900 rounded hover:bg-black mt-4 hover:text-white"><Link href="/service" >Explore Our Services</Link></Button>
@@ -211,8 +207,10 @@ function page() {
             </div>
             
             <section>
+            <h2 className="text-center text-2xl font-bold text-purple-500"> Our mission is simple</h2>
+            <br />
               <p>
-                <strong className="text-lg"> Our mission is simple:</strong> To
+                 To
                 turn your business needs into reality with the most effective
                 technology solutions and a touch of brilliance. Our team is a
                 blend of visionaries, engineers, designers, and strategists, each
@@ -235,7 +233,7 @@ function page() {
         </div>
         <div className="max-w-6xl mx-auto mt-6 flex flex-col gap-5">
          
-          <h2 className="text-gray-800 text-2xl font-bold text-center">Our Story</h2>
+          <h2 className=" text-2xl font-bold text-center text-purple-500">Our Story</h2>
 
           <p>
             Based out of Canada, we are proud to harness the strengths of our
