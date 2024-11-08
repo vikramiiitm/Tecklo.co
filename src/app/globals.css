@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+
+
+
+
+
+
+@keyframes border-animation {
+  0% {
+    border-color: #b7b6b6; /* Initial border color */
+  }
+  50% {
+    border-color: rgb(0, 183, 255); /* Intermediate color */
+  }
+  100% {
+    border-color: #b7b6b6; /* Final border color */
+  }
+}
+
+.animate-border {
+  animation: border-animation 4s infinite; /* Adjust duration and iteration count */
+}
