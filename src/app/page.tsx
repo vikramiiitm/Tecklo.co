@@ -218,7 +218,7 @@ export default function Home() {
       </section> */}
 
       <section className='overflow-hidden     '>
-        <Fade direction="down">
+        {/* <Fade direction="down"> */}
           <div className='bg-grid-black/[0.1] h-[90vh] md:h-[90vh] w-full relative flex justify-center items-center px-5'>
             <div className="absolute pointer-events-none inset-1 flex items-center justify-center  bg-gradient-to-tr   from-[#fff] to-[#fff] [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
             <div className='flex flex-col-reverse md:flex-col justify-centre  md:justify-evenly text-start max-w-6xl mx-auto  items-center z-20'>
@@ -247,7 +247,7 @@ export default function Home() {
               {/* <Image src={HeroImg} width={1000} height={1000} className=' hover:scale-105  duration-500' alt="HeroImg" />  </div> */}
           </div>
           </div>
-        </Fade>
+        {/* </Fade> */}
         {/* <Image src={HeroImg} width={1000} height={1000} className=' hover:scale-105  duration-500' alt="HeroImg" /> */}
 
 
