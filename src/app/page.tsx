@@ -218,7 +218,7 @@ export default function Home() {
       </section> */}
 
       <section className='overflow-hidden     '>
-        <Fade direction="up">
+        <Fade direction="down">
           <div className='bg-grid-black/[0.1] h-[90vh] md:h-[90vh] w-full relative flex justify-center items-center px-5'>
             <div className="absolute pointer-events-none inset-1 flex items-center justify-center  bg-gradient-to-tr   from-[#fff] to-[#fff] [mask-image:radial-gradient(ellipse_at_center,transparent_10%,black)]"></div>
             <div className='flex flex-col-reverse md:flex-col justify-centre  md:justify-evenly text-start max-w-6xl mx-auto  items-center z-20'>
@@ -299,7 +299,7 @@ export default function Home() {
      
 
 
-      <Fade direction="up" >
+      <Fade direction="down" >
         <section className="py-10  overflow-hidden    ">
 
           {/* <Hero /> */}
@@ -310,7 +310,7 @@ export default function Home() {
           />
         </section>
       </Fade>
-      <Fade direction="up">
+      <Fade direction="down">
         <section className="overflow-hidden ">
           <div className="relative bg-purple-950 overflow-hidden py-24 sm:py-32">
 
@@ -345,7 +345,7 @@ export default function Home() {
             </svg>
            
             <div className="mx-auto max-w-7xl flex flex-col items-center  px-6 lg:px-8">
-              <Fade direction="up">
+              <Fade direction="down">
                 <div className="mx-auto text-center max-w-2xl lg:mx-0">
                   <h3 className="text-base/7 font-semibold text-purple-400 mb-4">Your Trusted Partner in Growth</h3>
                   <h2 className="text-4xl font-semibold tracking-tight text-white sm:text-7xl">About Tecklo</h2>
@@ -477,7 +477,7 @@ export default function Home() {
             </div>
             <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
               <dl className="grid  max-w-xl grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 lg:max-w-none lg:flex-wrap lg:gap-y-12">
-                <Fade direction="up">
+                <Fade direction="down">
                   {features.map((feature) => (
                     <div key={feature.title} className=" h-24 flex items-center border border-purple-300 rounded p-4 shadow-md hover:shadow-xl duration-500">
                       <dt className="text-base/7 flex items-center rounded gap-5 font-semibold text-gray-900">
