@@ -53,7 +53,7 @@ function Navbar() {
                   href="/service"
                   className="hover:text-purple-500 duration-500"
                 >
-                  Service
+                  Services
                 </Link>
               </MenubarMenu>
               <MenubarMenu>
@@ -108,7 +108,7 @@ function Navbar() {
                       href="/service"
                       className="hover:text-purple-500 duration-500"
                     >
-                      Service
+                      Services
                     </Link>
                     <Link
                       href="/work"

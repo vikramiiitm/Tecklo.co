@@ -30,7 +30,7 @@ const services: ServiceProps[] = [
 function Page() {
     return (
         <div>
-            <h1 className="text-2xl font-bold mb-6">Our Services</h1>
+            
             {services.map((service, index) => (
                 <ServicePageComponent
                     key={index}

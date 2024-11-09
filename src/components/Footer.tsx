@@ -29,6 +29,9 @@ function Footer() {
             <Link className="hover:text-purple-500 duration-500" href="/work">
               Our Work
             </Link>
+            <Link className="hover:text-purple-500 duration-500" href="/our-team">
+              Our Team
+            </Link>
           </div>
         </div>
         <div className="mt-4 md:mt-0">

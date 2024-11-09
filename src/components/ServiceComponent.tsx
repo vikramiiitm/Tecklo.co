@@ -125,6 +125,13 @@ const Design = [
     img: "https://img.freepik.com/free-vector/call-center-helpdesk-concept-with-support-symbols-isometric-vector-illustration_1284-69102.jpg?ga=GA1.1.1237693334.1722664951&semt=ais_hybrid",
     link:"/support"
   },
+  {
+    title: "Start up Assistance",
+    description:
+      "  We help startups establish a strong digital presence with tailored strategies and continuous support ",
+    img: "https://img.freepik.com/free-photo/person-using-tablet_53876-13420.jpg?ga=GA1.1.1237693334.1722664951&semt=ais_hybrid",
+    link: "/startup-assistance"
+  },
   
 ];
 
@@ -300,151 +307,14 @@ function page() {
         <div className="max-w-7xl mx-auto  px-5 flex flex-col gap-4">
           <div>
             <Fade direction="left">
-              <h2 className="text-3xl text-center py-5 font-bold underline text-purple-500">
+              <h2 className="text-3xl text-center py-5 mb-10 font-bold underline text-purple-500">
                 Our Services
               </h2>
             </Fade>
-            {/* <div className="flex flex-wrap gap-10 justify-evenly ">
-              <Fade direction="up">
-                {Design.map((props, index) => (
-                  <div key={index} className="max-w-sm  group/card">
-                    <div
-                      className={cn(
-                        "cursor-pointer overflow-hidden relative card h-64 rounded-[10px] shadow-xl max-w-sm mx-auto flex flex-col justify-around p-2"
-                      )}
-                    >
-                      {props.img && (
-                        <Image
-                          src={props.img}
-                          alt={props.title}
-                          width={1000}
-                          height={1000}
-                          className="absolute w-full h-full top-0 left-0 object-cover"
-                        />
-                      )}
-                      <div className="absolute w-full h-full top-0 left-0 object-cover bg-black opacity-60"></div>
-                      <h1 className="font-bold text-3xl md:text-4xl text-gray-50 relative z-10">
-                        {props.title}
-                      </h1>
-                      <p className="font-medium text-base text-gray-50 relative z-10 my-4">
-                        {props.description}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </Fade>
-            </div> */}
             <ServiceCard services={Design} />
-            <Fade direction="up">
-              <Card
-
-                className={`h-auto lg:h-[62vh] transition-all rounded shadow-md overflow-hidden duration-300 mt-6`}
-
-              >
-                <Image
-                  src={"https://img.freepik.com/free-photo/person-using-tablet_53876-13420.jpg?ga=GA1.1.1237693334.1722664951&semt=ais_hybrid"}
-                  alt={" Start up Assistance"}
-                  width={1000}
-                  height={1000}
-                  className="w-full h-[40vh] top-0 left-0 object-cover z-0"
-                />
-
-                <CardHeader className="text-start p-4 z-10">
-                  <CardTitle className="text-start text-purple-500 uppercase font-bold text-2xl">
-                    Start up Assistance
-                  </CardTitle>
-                </CardHeader>
-
-                <CardContent className="relative text-base text-start px-4 z-10">
-                  we help startups establish a strong digital foundation by creating tailored websites, enhancing branding, and optimizing online marketing and SEO. We guide you in selecting the right tools to streamline operations, ensuring a smooth launch and long-term online success. Whether starting fresh or refining your presence, we’re here to assist you every step of the way.
-                </CardContent>
-
-              </Card>
-            </Fade>
           </div>
-          {/* <div className=" text-start mt-4">
-            <Fade direction="left">
-              <h2 className="text-2xl py-2 font-bold text-blue-500">
-                Our Approach
-              </h2>
-            </Fade>
-            <Fade direction="right">
-              <ul className="list-disc ml-4 flex flex-col gap-2">
-                <li>
-                  By working closely with you, we ensure that every project
-                  reflects your brand&apos;s values and objectives.{" "}
-                </li>
-                <li>
-                  Our agile methodology allows us to adapt and respond to
-                  changes quickly, delivering results on time and within budget.
-                </li>
-                <li>
-                  Our process starts with understanding your brand, audience,
-                  and goals. We then develop a comprehensive marketing strategy
-                  that integrates various channels and tactics to achieve
-                  optimal results.
-                </li>
-                <li>
-                  We believe in a client-centric approach where your needs and
-                  goals drive our solutions.
-                </li>
-                <li>
-                  For web hosting, we focus on providing a seamless and
-                  hassle-free experience with robust infrastructure and
-                  exceptional support.
-                </li>
-                <li>
-                  Our team is dedicated to offering reliable solutions that
-                  enhance your business operations and drive success.
-                </li>
-                <li>
-                  We believe in a collaborative approach to software
-                  development. By working closely with you, we gain a thorough
-                  understanding of your business processes and objectives. We
-                  prioritize clear communication and continuous feedback to
-                  ensure that the final product exceeds your expectations.
-                </li>
-              </ul>
-            </Fade>
-          </div> */}
-          <div>
-            {/* <Fade direction="left">
-              <h2 className="text-2xl font-bold text-blue-500 py-8 text-center">
-                Why Choose Us
-              </h2>
-            </Fade> */}
-            {/* <div className="flex flex-wrap gap-5 justify-evenly ">
-              <Fade direction="up">
-                {Dwcu.map((props, index) => (
-                  <div key={index} className="max-w-sm w-full group/card">
-                    <div
-                      className={cn(
-                        "cursor-pointer overflow-hidden relative card h-72 rounded-[10px] shadow-xl max-w-sm mx-auto flex flex-col justify-between p-4"
-                      )}
-                    >
-                      {props.img && (
-                        <Image
-                          src={props.img}
-                          alt={props.title}
-                          width={1000}
-                          height={1000}
-                          className="absolute w-full h-full top-0 left-0 object-cover"
-                        />
-                      )}
-                      <div className="absolute w-full h-full top-0 left-0 object-cover bg-black opacity-60"></div>
-                      <h1 className="font-bold text-2xl md:text-3xl text-gray-50 relative z-10">
-                        {props.title}
-                      </h1>
-                      <p className="font-medium text-base text-gray-50 relative z-10 my-4">
-                        {props.description}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </Fade>
-            </div> */}
-            {/* <ServiceCard services={Dwcu} /> */}
-          </div>
+         
+         
         </div>
       </section>
 

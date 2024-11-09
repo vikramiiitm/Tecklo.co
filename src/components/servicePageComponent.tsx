@@ -18,7 +18,7 @@ const ServicePageComponent: React.FC<ServiceProps> = ({ title, description, feat
     return (
         <div>
 
-            <section className=" overflow-hidden h-96 relative pt-10">
+            <section className=" overflow-hidden h-96  lg:h-[75vh] relative pt-10">
                 <div className=" ">
                     <svg
                         aria-hidden="true"
@@ -71,11 +71,18 @@ const ServicePageComponent: React.FC<ServiceProps> = ({ title, description, feat
                         </defs>
                     </svg>
                 </div>
-                <div className="justify-center items-center flex flex-col gap-4 mt-4 h-full max-w-5xl mx-auto bg-transparent">
+                <div className="justify-center items-center flex flex-col gap-4  h-full max-w-5xl mx-auto bg-transparent">
                     <Fade direction="left">
-                        <h1 className="text-gray-700 font-bold text-4xl lg:text-7xl text-center ">
-                            Application <span className="text-purple-500"> Programming Interface </span>(API)
+                        <h1 className="text-purple-700 font-bold text-4xl lg:text-7xl text-center ">
+                            <span className="text-black">
+                                {title.split(' ').slice(0, Math.floor(title.split(' ').length / 2)).join(' ')}
+                            </span>
+                            <span className="text-purple-700">
+                                {" "}{title.split(' ').slice(Math.floor(title.split(' ').length / 2)).join(' ')}
+                            </span>
                         </h1>
+                       
+
                     </Fade>
                     {/* <Fade direction="right">
                         <p className="text-base font-medium text-gray-600 text-center max-w-7xl px-5 mx-auto">
@@ -90,9 +97,9 @@ const ServicePageComponent: React.FC<ServiceProps> = ({ title, description, feat
                 <div className="max-w-6xl py-10 flex flex-col lg:flex-row mx-auto gap-4 items-center rounded-lg p-4 ">
                         <Image src={img} alt={title} width="1000"height="1000" className="h-96 object-cover rounded  w-full lg:w-[40vw]" />
 
-                    <div> <h2 className="text-xl font-bold mb-2 mt-6">{title}</h2>
-                        <p className="mb-4">{description}</p>
-                        <ol className=" pl-5">
+                    <div> <h2 className="text-xl font-bold mb-2 mt-6 text-purple-500">{title}</h2>
+                        <p className="mb-4 text-gray-700">{description}</p>
+                        <ol className=" pl-5 text-gray-800">
                             {features.map((feature, index) => (
                                 <div key={index} dangerouslySetInnerHTML={{ __html: feature }} />
                             ))}

@@ -93,7 +93,7 @@ function page() {
               fill="url(#:r0:)"
               stroke-width="0"
             ></rect>
-            <svg x="50%" y="-96" stroke-width="0" className="overflow-visible">
+            <svg x="50%" y="-96" strokeWidth="0" className="overflow-visible">
               <path
                 transform="translate(64 160)"
                 d="M45.119 4.5a11.5 11.5 0 0 0-11.277 9.245l-25.6 128C6.82 148.861 12.262 155.5 19.52 155.5h63.366a11.5 11.5 0 0 0 11.277-9.245l25.6-128c1.423-7.116-4.02-13.755-11.277-13.755H45.119Z"
@@ -142,10 +142,8 @@ function page() {
 
             
             <p className="text-base lg:text-lg font-medium text-gray-600 text-center max-w-7xl mx-auto">
-              Where innovation meets diversity in the heart of Canada.
-              We&apos;re not just a tech startup. we&apos;re the backbone of
-              creativity and expertise, driven by a team of exceptional minds
-              from all corners of the globe.
+              Where innovation meets diversity in the heart of Canada. we&apos;re the backbone of
+              creativity and expertise, driven by a team of exceptional minds.
             </p>
           </Fade>
         </div>
@@ -153,12 +151,16 @@ function page() {
       </section>
       <section className="max-w-6xl mx-auto py-10 px-5 flex flex-col  gap-5 justify-center">
         <div className=" flex flex-col gap-5">
+          <Fade direction="left" >
+
             <h1 className="text-purple-500 text-4xl font-bold text-center ">
               About Us
             </h1>
-          
+          </Fade>
+
             <section >
               <div className="text-base text-gray-800">
+          <Fade direction="left" >
                 <p>
                   Welcome to Tecklo.co, your trusted partner in digital solutions. We specialize in helping businesses of all sizes enhance their online presence and achieve their goals. With a dedicated team of experts in design, development, and marketing, we offer a comprehensive range of services tailored to meet your unique needs.
               </p><br />
@@ -168,16 +170,21 @@ function page() {
                 <p>
                   Let&apos;s work together to take your business to new heights in the digital landscape.
                 </p>
+          </Fade>
               </div>
            </section>
            
 
             <div className="flex flex-col  gap-5 justify-center ">
               <section className=" bg-light  text-gray-800">
+              <Fade direction="left" >
+
               <h2 className="text-center text-2xl font-bold text-purple-500 ">Our Approach</h2>
-                <h3 className="pb-10 text-center text-sm">Tailored Solutions for Every Business</h3>
+              </Fade>
+
                 <div className="row">
                   <div className="col-md-6 text-base">
+              <Fade direction="left" >
                     <p>At tecklo, we prioritize understanding each client’s unique needs to deliver custom-fit digital solutions. Our team combines expert craftsmanship with a client-first mentality, ensuring that every project is tailored specifically to your business goals. By using Agile Methodology, we remain flexible and adaptable, allowing us to adjust quickly to changes while maintaining continuous improvement throughout the project lifecycle.
                     </p>
                     
@@ -187,15 +194,16 @@ function page() {
                     </p><br />
                     <p>With offices in Canada, we bring local expertise and a global vision to your business, helping you grow both locally and internationally. Our mission is to build lasting partnerships, providing solutions that empower businesses to thrive in the digital world.
                     </p>
-                    <ul className="flex flex-col gap-2 mt-4 font-semibold ">
-                    <li className="flex gap-2"><LoaderPinwheel className="text-purple-400" /> <span>Client-Centric Focus: </span> <span>Understanding unique needs.</span></li>
-                    <li className="flex gap-2"><Pickaxe className="text-purple-400" /> <span>Expert Craftsmanship: </span> <span>Skilled team delivering quality.</span> </li>
-                    <li className="flex gap-2"><ArrowsUpFromLine className="text-purple-400" /> <span>Agile Methodology: </span> <span>Flexibility and adaptability.</span></li>
-                    <li className="flex gap-2"><Pyramid className="text-purple-400" /> <span>End-to-End Guidance: </span> <span>Support from planning to maintenance.</span></li>
-                    <li className="flex gap-2"><BetweenHorizontalStart className="text-purple-400" /> <span>Data-Driven Strategies: </span> <span>Measurable results.</span> </li>
+                    <ul className="flex flex-col gap-4 mt-4 text-base md:text-lg ">
+                      <li className="flex flex-col md:flex-row text-center md:text-start gap-1 items-center"><LoaderPinwheel className="text-purple-400" /> <strong>Client-Centric Focus: </strong> <span className="ml-4">Understanding unique needs.</span></li>
+                      <li className="flex flex-col md:flex-row text-center md:text-start gap-1 items-center"><Pickaxe className="text-purple-400" /> <strong>Expert Craftsmanship: </strong> <span className="ml-4">Skilled team delivering quality.</span> </li>
+                      <li className="flex flex-col md:flex-row text-center md:text-start gap-1 items-center"><ArrowsUpFromLine className="text-purple-400" /> <strong>Agile Methodology: </strong> <span className="ml-4">Flexibility and adaptability.</span></li>
+                      <li className="flex flex-col md:flex-row text-center md:text-start gap-1 items-center"><Pyramid className="text-purple-400" /> <strong>End-to-End Guidance: </strong> <span className="ml-4">Support from planning to maintenance.</span></li>
+                      <li className="flex flex-col md:flex-row text-center md:text-start gap-1 items-center"><BetweenHorizontalStart className="text-purple-400" /> <strong>Data-Driven Strategies: </strong> <span className="ml-4">Measurable results.</span> </li>
                     </ul>
                     <p className="mt-2">With offices in Canada , we bring local expertise and a global vision to your business, helping you grow both locally and internationally.</p>
                     <Button asChild className="bg-white text-gray-900 rounded hover:bg-black mt-4 hover:text-white"><Link href="/service" >Explore Our Services</Link></Button>
+              </Fade>
                   </div>
 
                 </div>
@@ -207,8 +215,13 @@ function page() {
             </div>
             
             <section>
+            <Fade direction="left" >
+
             <h2 className="text-center text-2xl font-bold text-purple-500"> Our mission is simple</h2>
+            </Fade>
             <br />
+            <Fade direction="left" >
+
               <p>
                  To
                 turn your business needs into reality with the most effective
@@ -228,12 +241,17 @@ function page() {
                 ensure that every project benefits from a wealth of perspectives
                 and innovative approaches.
               </p>
+            </Fade>
             </section>
             
         </div>
         <div className="max-w-6xl mx-auto mt-6 flex flex-col gap-5">
-         
+          <Fade direction="left" >
+
           <h2 className=" text-2xl font-bold text-center text-purple-500">Our Story</h2>
+          </Fade>
+
+          <Fade direction="left" >
 
           <p>
             Based out of Canada, we are proud to harness the strengths of our
@@ -255,6 +273,8 @@ function page() {
             Join us on this exciting journey, and let&apos;s build the future
             together.
           </p>
+          </Fade>
+
           
 
         </div>
@@ -268,7 +288,9 @@ function page() {
                 Why Choose Us
               </h1>
             </Fade>
+
             <div className="flex flex-col justify-between w-full max-w-4xl mx-auto gap-5   px-5">
+              <Fade direction="left" >
               {WhyChooseUs.map((service, index) => {
                 return (
                   <Accordion key={index} type="single" collapsible>
@@ -285,7 +307,10 @@ function page() {
                 );
               })}
 
+            </Fade>
             </div>
+            
+
           </div>
         </div>
       </section>

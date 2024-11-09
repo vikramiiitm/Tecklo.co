@@ -1,6 +1,17 @@
 // pages/team.js
 import TeamCard from "@/components/TeamCard";
 
+
+import { Metadata } from 'next'
+
+
+export const metadata: Metadata = {
+    title: "Our Team | Tecklo",
+    description: "Meet Tecklo's dedicated team of IT experts, committed to delivering innovative solutions and exceptional client support.",
+};
+
+
+
 const teamMembers = [
     {
         name: "Uddashay Arora",
