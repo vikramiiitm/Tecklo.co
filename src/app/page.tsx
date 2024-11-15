@@ -236,7 +236,7 @@ export default function Home() {
                     <Link href="/work">Glimps to our projects</Link>
                   </Button>
                   <Button asChild variant="outline"  className="hover:bg-gray-800 outline-purple-500 bg-white hover:text-white text-purple-500   rounded py-6 w-56 text-lg">
-                    <a href="mailto:">Mail Us Now</a>
+                  <a href="mailto:admin@tecklo.co">Mail Us Now</a>
                   </Button>
 </div>
 
