@@ -44,7 +44,7 @@ const PopupComponent: React.FC = () => {
                 >
                     {/* Popup Content */}
                     <div
-                        className="bg-white rounded-[8px] shadow-lg p-6 relative  w-full mx-2"
+                        className="bg-white rounded-[8px] shadow-lg p-6 relative max-w-md w-full mx-2"
                         onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside
                     >
                         {/* Close Button */}
