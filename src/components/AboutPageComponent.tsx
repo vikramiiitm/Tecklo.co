@@ -142,7 +142,7 @@ function page() {
 
             
             <p className="text-base lg:text-lg font-medium text-gray-600 text-center max-w-7xl mx-auto">
-              Where innovation meets diversity in the heart of Canada. we&apos;re the backbone of
+              Where innovation meets diversity in the heart of Canada. We&apos;re the backbone of
               creativity and expertise, driven by a team of exceptional minds.
             </p>
           </Fade>
@@ -201,7 +201,7 @@ function page() {
                       <li className="flex flex-col md:flex-row text-center md:text-start gap-1 items-center"><Pyramid className="text-purple-400" /> <strong>End-to-End Guidance: </strong> <span className="ml-4">Support from planning to maintenance.</span></li>
                       <li className="flex flex-col md:flex-row text-center md:text-start gap-1 items-center"><BetweenHorizontalStart className="text-purple-400" /> <strong>Data-Driven Strategies: </strong> <span className="ml-4">Measurable results.</span> </li>
                     </ul>
-                    <p className="mt-2">With offices in Canada , we bring local expertise and a global vision to your business, helping you grow both locally and internationally.</p>
+                    <p className="mt-4">With offices in Canada , we bring local expertise and a global vision to your business, helping you grow both locally and internationally.</p>
                     <Button asChild className="bg-white text-gray-900 rounded hover:bg-black mt-4 hover:text-white"><Link href="/service" >Explore Our Services</Link></Button>
               </Fade>
                   </div>

@@ -22,7 +22,7 @@ interface ServiceCardProps {
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ services }) => {
     const [visibleDescriptionIndex, setVisibleDescriptionIndex] = useState<number | null>(null);
-    const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+    // const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
     const toggleDescription = (index: number) => {
         setVisibleDescriptionIndex(visibleDescriptionIndex === index ? null : index);
@@ -37,18 +37,19 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ services }) => {
     }, [visibleDescriptionIndex]);
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             {services.map((service, index) => {
-                const isVisible = visibleDescriptionIndex === index;
-                const isBlurred = hoveredIndex !== null && hoveredIndex !== index;
+                // const isVisible = visibleDescriptionIndex === index;
+                // const isBlurred = hoveredIndex !== null && hoveredIndex !== index;
 
                 return (
                     <Fade direction="up" key={index}>
                         <Card
-                            aria-expanded={isVisible}
-                            className={`h-auto lg:h-[62vh] transition-all rounded shadow-md overflow-hidden duration-300 ${isBlurred ? "blur-lg" : ""}`}
-                            onMouseEnter={() => setHoveredIndex(index)}
-                            onMouseLeave={() => setHoveredIndex(null)}
+                            // aria-expanded={isVisible}
+                            className={`h-auto lg:h-[70vh] xl:h-auto transition-all rounded shadow-md overflow-hidden duration-300 hover:scale-105`}
+                            // className={`h-auto lg:h-[70vh] xl:h-auto transition-all rounded shadow-md overflow-hidden duration-300 ${isBlurred ? "blur-lg" : ""}`}
+                            // onMouseEnter={() => setHoveredIndex(index)}
+                            // onMouseLeave={() => setHoveredIndex(null)}
                             onClick={() => toggleDescription(index)}
                         >
                             {service.img && (
@@ -60,22 +61,23 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ services }) => {
                                     className="w-full h-[40vh] top-0 left-0 object-cover z-0"
                                 />
                             )}
-                            <CardHeader className="text-start p-4 z-10">
-                                <CardTitle className="text-start text-purple-500 uppercase text-xl">
-                                    {service.title}
-                                </CardTitle>
-                            </CardHeader>
+                                <CardHeader className="text-start p-2 z-10">
+                                    <CardTitle className="text-start text-purple-500 uppercase text-xl">
+                                        {service.title}
+                                    </CardTitle>
+                                </CardHeader>
 
-                            <CardContent className="relative text-xs text-start px-4 z-10">
-                                {service.description}
-                            </CardContent>
-                            <CardContent className="relative text-sm text-start px-4 z-10">
-                                {service.link && (
-                                    <Link className="bg-purple-500 p-2 text-white  hover:bg-purple-600 rounded" href={service.link}>
-                                        Read More...
-                                    </Link>
-                                )}
-                            </CardContent>
+                                <CardContent className="relative text-base text-start px-4 z-10">
+                                    {service.description}
+                                </CardContent>
+                                <CardContent className="relative text-sm text-start px-4 z-10">
+                                    {service.link && (
+                                        <Link className="bg-purple-500 p-2 text-white  hover:bg-purple-600 rounded" href={service.link}>
+                                            Read More...
+                                        </Link>
+                                    )}
+                                </CardContent>
+
                         </Card>
                     </Fade>
                 );
